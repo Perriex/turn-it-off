@@ -1,0 +1,26 @@
+{
+  "name": "turn-it-off",
+  "version": "1.0.0",
+  "description": "A simple function(not realiable) for checking if user has proxy.",
+  "main": "check-vpn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perriex/turn-it-off.git"
+  },
+  "keywords": [
+    "check-vpn",
+    "detect-vpn",
+    "check-timezone",
+    "-",
+    "get-timezone"
+  ],
+  "author": "Perriex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perriex/turn-it-off/issues"
+  },
+  "homepage": "https://github.com/Perriex/turn-it-off#readme"
+}
