@@ -21,9 +21,9 @@ export async function checkVPN() {
 
 
 // description
-// Remove background
+// Remove background & make it white 
 
-export default async function DragDrop(APIkey: string, file, setFileObj) {
+export default async function DragDrop(APIkey: string, file: any, setFileObj: (a: any) => void) {
 	const formData = new FormData();
 
 	formData.append("size", "auto");
@@ -40,10 +40,8 @@ export default async function DragDrop(APIkey: string, file, setFileObj) {
 	});
 	if (res.status < 400) {
 		try {
-			const text = await res.text();
-			const json = JSON.parse(text);
 			setFileObj(res);
-			return json;
+			return 	;
 		} catch (err) {
 			return true;
 		}
