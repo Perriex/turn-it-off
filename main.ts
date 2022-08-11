@@ -23,7 +23,7 @@ export async function checkVPN() {
 // description
 // Remove background & make it white 
 
-export default async function DragDrop(APIkey: string, file: any, setFileObj: (a: any) => void) {
+export default async function RemoveImgBackground(APIkey: string, file: any, setFileObj: (a: any) => void) {
 	const formData = new FormData();
 
 	formData.append("size", "auto");
