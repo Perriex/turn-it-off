@@ -15,7 +15,7 @@ export async function checkVPN() {
         ip: data,
         hasVPN: client != browser,
       };
-    });
+    }).catch(console.warn);
 }
 
 // description
